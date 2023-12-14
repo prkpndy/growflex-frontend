@@ -1,0 +1,12 @@
+.form-heading {
+  margin-top: 2px;
+  padding-bottom: 2px;
+  color: rgb(34, 139, 230);
+}
+
+.logout-button {
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  flex-direction: row-reverse;
+}
