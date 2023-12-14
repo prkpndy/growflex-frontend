@@ -122,7 +122,6 @@ export default function DashboardPage() {
           mt="lg"
           onClick={() => {
             const selectedRows = gridRef.current.api.getSelectedRows();
-            console.log(selectedRows[0].email);
 
             if (selectedRows.length === 0) {
               alert("Please select a row to delete");
